@@ -4,25 +4,19 @@ export const COLUMNS = [
   {
     Header: "id",
     accessor: "id",
-    disableFilters: true
   },
   {
     Header: "First Name",
     accessor: "first_name",
-    disableFilters: true
 
   },
   {
     Header: "Last Name",
     accessor: "last_name",
-    disableFilters: true
-
   },
   {
     Header: "Email",
     accessor: "email",
-    disableFilters: true
-
   },
   {
     Header: "DOB",
@@ -30,11 +24,9 @@ export const COLUMNS = [
     Cell: ({ value }) => {
       return format(new Date(value), "dd/MM/yyyy");
     },
-    disableFilters: true
   },
   {
     Header: "Age",
     accessor: "age",
-    disableFilters: true
   },
 ];
